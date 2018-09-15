@@ -1,9 +1,7 @@
 #include "Arduino.h"
 // Be sure that the AltSoftSerial library is available, download it from http://www.pjrc.com/teensy/td_libs_AltSoftSerial.html"
 #include "AltSoftSerial.h"
-
-
-#include "OBD9141.h"
+#include "../lib/OBD9141.h"
 
 #define RX_PIN 8  // connect to transceiver Rx
 #define TX_PIN 9  // connect to transceiver Tx
